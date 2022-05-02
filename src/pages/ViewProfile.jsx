@@ -4,7 +4,7 @@ import NavBar from "./NavBar.jsx";
 import {adminDetailsData} from "./data.js"
 import "../App.css";
 
-
+import Button from "../components/Button"
 
 
 class ViewProfile extends Component {
@@ -36,26 +36,29 @@ class ViewProfile extends Component {
           <form onSubmit={this.handleSubmit} className="FormFields">
             {/*Write code to create labels for name,email,dob,mobileno and location */}
                <div>
-              <span id="name">{admin.name}</span>
+              <span id="name" className="FormField__ViewLabel">{admin.name}</span>
             </div>
 
             <div>
-              <span id="email">{admin.email}</span>
+              <span id="email" className="FormField__ViewLabel">{admin.email}</span>
             </div>
 
             <div>
-              <span id="dob">{admin.dob}</span>
+              <span id="dob" className="FormField__ViewLabel">{admin.dob}</span>
             </div>
 
             <div>
-              <span id="mobileno">{admin.mobileno}</span>
+              <span id="mobileno" className="FormField__ViewLabel">{admin.mobileno}</span>
             </div>
 
             <div>
-              <span id="location">{admin.location}</span>
+              <span id="location" className="FormField__ViewLabel">{admin.location}</span>
             </div>
             <div className="FormField">
               {/*Write code here to create a close button */}
+              <Button className="FormField__Button"  onClick={this.handleClose}>
+                    close
+                  </Button>
             </div>
           </form>
         </div>

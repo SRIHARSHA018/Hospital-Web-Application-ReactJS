@@ -38,9 +38,12 @@ const Example = props => {
             </NavItem>
             <NavItem>
               <Link to="/bookAppointment">Book Appointment</Link>
-            </NavItem>
+            </NavItem>          
             <NavItem>
               <Link to="/allAppointments">All Appointments</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/viewProfile">viewProfile</Link>
             </NavItem>
             <NavItem>
               <Link to="/logout">logout</Link>
