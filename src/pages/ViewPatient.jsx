@@ -41,10 +41,10 @@ class ViewPatient extends Component {
           <form onSubmit={this.handleSubmit} className="FormFields">
             {/* Write code here to create fields for name, disease,appdate, slot and mobile*/}
             <div>
-              <span id="name">{patient.name}</span>
+              <span className="FormField__all__font" id="name">{patient.name}</span>
             </div>
             <div>
-              <span id="email">{patient.email}</span>
+              <span className="FormField__all__font" id="email">{patient.email}</span>
             </div>
             <div>
               <span id="dob">{patient.dob}</span>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavBar from "./NavBar.jsx";
 import "../App.css";
 import { patientDetailsData } from "./data.js";
+import  Button  from "../components/Button";
 class AllPatients extends Component {
   constructor(props) {
     super(props);
@@ -40,14 +41,16 @@ class AllPatients extends Component {
           ) : (
             this.state.patientsList.map((ele) => {
               return (
+                <div className="FormCenter">
                 <div>
-                  <label>{ele.name}</label>
-                  <button onClick={this.handleEdit.bind(this, ele.id)}>
+                  <label className="FormField__ViewLabel">{ele.name}</label>
+                  <Button className="FormField__Button" onClick={this.handleEdit.bind(this, ele.id)}>
                     Edit
-                  </button>
-                  <button onClick={this.handleView.bind(this, ele.id)}>
+                  </Button>
+                  <Button className="FormField__Button"  onClick={this.handleView.bind(this, ele.id)}>
                     View
-                  </button>
+                  </Button>
+                </div>
                 </div>
               );
             })

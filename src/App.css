@@ -73,7 +73,7 @@
 
 .FormField__ViewLabel {
   display: block;
-  /*text-transform: capitalize;*/
+  text-transform: capitalize;
   font-size: 0.9em;
   color: rgb(255, 255, 255);
 }
