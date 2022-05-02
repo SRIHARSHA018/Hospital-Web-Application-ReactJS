@@ -4,7 +4,7 @@ import NavBar from "./NavBar.jsx";
 import {adminDetailsData} from "./data.js"
 import "../App.css";
 
-import Button from "../components/Button.jsx";
+import Button from "../components/Button"
 
 
 class ViewProfile extends Component {
