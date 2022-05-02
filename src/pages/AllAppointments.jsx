@@ -62,11 +62,11 @@ class AllAppointments extends Component {
               </div>
               {appointmentsList.map((appointment,index) => (
             
-               <div>
-                  <div>{appointment.name}</div>
-                  <button onClick={this.handleView}>View</button>
-                  <button onClick={this.handleEdit}>Edit</button>
-                  <button onClick={this.handleDelete}>Delete</button>
+            <div className="FormCenter">
+                  <div className="FormField__Label">{appointment.name}</div>
+                  <button className="FormField__all__Button" onClick={this.handleView}>View</button>
+                  <button className="FormField__all__Button" onClick={this.handleEdit}>Edit</button>
+                  <button className="FormField__all__Button" onClick={this.handleDelete}>Delete</button>
                 </div>
               ))}
             </div>

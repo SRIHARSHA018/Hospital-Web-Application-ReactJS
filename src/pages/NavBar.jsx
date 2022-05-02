@@ -24,15 +24,34 @@ const Example = props => {
   return (
     <div>
       {/*should have a Navbar brand, toggler and the NavItem (logout) should be linked to sign-in page */}
-
-      <Navbar>
-        <Link to="/addPatient">Add Patients</Link>
-        <Link to="/allPatients">All Patients</Link>
-        <Link to="/bookAppointment">Book Appointment</Link>
-        <Link to="/allAppointments">All Appointments</Link>
-        
+      
+      <Navbar color="faded" light>
+        <NavbarBrand to="/" className="mr-auto">HSM</NavbarBrand>
+        <NavbarToggler onClick={toggle} className="mr-2" />
+        <Collapse isOpen={!isOpen} navbar>
+        <Nav className="mr-auto" navbar>
+            <NavItem>
+              <Link to="/addPatient">Add Patients</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/allPatients">All Patients</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/bookAppointment">Book Appointment</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/allAppointments">All Appointments</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/logout">logout</Link>
+            </NavItem>
+            
+          </Nav>
+        </Collapse>
       </Navbar>
     </div>
+    
   );
 };
 export default Example;
+ 
