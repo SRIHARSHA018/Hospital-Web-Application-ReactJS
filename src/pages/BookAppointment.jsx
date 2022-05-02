@@ -121,10 +121,10 @@ class BookAppointment extends Component {
               <label className="FormField__Label" htmlFor="name">
                 Slots
               </label>
-              <header>select slots </header>
+              <header className="FormField__Label">select slots </header>
               <select
+            
                 id="dropdown"
-                className="DropDowns"
                 ref={(input) => (this.slots = input)}
                 onChange={this.handleDropdownChange.bind(this)}
               >

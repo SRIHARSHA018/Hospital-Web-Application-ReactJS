@@ -95,24 +95,24 @@ class EditAppointment extends Component {
           <form onSubmit={this.handleSubmit} className="FormFields">
             {/*it should have fields like name, disease, appdate, slot, description, submit and cancel buttons */}
              <div>
-              <label>Name</label>
-              <input id="name" onChange={this.handleChange}></input>
+              <label className="FormField__Label">Name</label>
+              <input id="name"  className="FormField__Input" name="name" type="text" value={this.state.name} onChange={this.handleChange}></input>
             </div>
             <div>
-              <label>Disease</label>
-              <input id="disease" onChange={this.handleChange}></input>
+              <label className="FormField__Label">Disease</label>
+              <input id="disease"   className="FormField__Input" name="disease" type="text" value={this.state.disease} onChange={this.handleChange}></input>
             </div>
             <div>
-              <label>AppDate</label>
-              <input id="appdate" onChange={this.handleChange}></input>
+              <label className="FormField__Label">AppDate</label>
+              <input id="appdate"  className="FormField__Input" name="appdate" type="date" value={this.state.appdate} onChange={this.handleChange}></input>
             </div>
             <div>
-              <label>slot</label>
-              <input id="slot" onChange={this.handleChange}></input>
+              <label className="FormField__Label">slot</label>
+              <input id="slot" className="FormField__Input" name="slot" type="text" value={this.state.slot} onChange={this.handleChange}></input>
             </div>
             <div>
-              <label>description</label>
-              <input id="description" onChange={this.handleChange}></input>
+              <label className="FormField__Label">description</label>
+              <input id="description"  className="FormField__Input" name="description" type="text" value={this.state.description} onChange={this.handleChange}></input>
             </div>
 
             <div>
