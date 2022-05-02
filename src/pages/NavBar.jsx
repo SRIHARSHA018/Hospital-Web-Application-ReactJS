@@ -43,6 +43,9 @@ const Example = props => {
               <Link to="/allAppointments">All Appointments</Link>
             </NavItem>
             <NavItem>
+              <Link to="/viewProfile">View Profile</Link>
+            </NavItem>
+            <NavItem>
               <Link to="/logout">logout</Link>
             </NavItem>
             
