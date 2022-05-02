@@ -175,7 +175,7 @@ class BookAppointment extends Component {
             </div>
             <div>
               <Button className="FormField__Button" onClick={this.handleCancel}>
-                cancel
+                Cancel
               </Button>
             </div>
           </form>
