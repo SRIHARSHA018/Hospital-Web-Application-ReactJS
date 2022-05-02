@@ -98,33 +98,33 @@ class SignUpForm extends Component {
 
                         {/*Write code here to create uname, email, dob, location, mobileno labels and inputs */}
                         <div>
-                            <label htmlFor="uname">Username</label>
+                            <label className="FormField__Label" htmlFor="uname">Username</label>
                             <input className="FormField__Input" type="text" id="uname" name="uname" onChange={this.handleChange} placeholder="Enter your username" />
                         </div>
                         <div>
-                            <label htmlFor="email">E-mail ID</label>
+                            <label className="FormField__Label" htmlFor="email">E-mail ID</label>
                             <input className="FormField__Input" type="email" id="email" name="email" onChange={this.handleChange} placeholder="Enter email" />
                         </div>
                         <div>
-                            <label htmlFor="password">Password</label>
+                            <label className="FormField__Label" htmlFor="password">Password</label>
                             <input className="FormField__Input" type="password" id="password" name="password" onChange={this.handleChange} placeholder="Enter password" />
                         </div>
                         <div>
-                            <label htmlFor="dob">Password</label>
+                            <label className="FormField__Label" htmlFor="dob">Date Of Birth</label>
                             <input className="FormField__Input" type="date" id="dob" name="dob" onChange={this.handleChange} placeholder="Enter date in formate of dd/mm/yyyy" />
                         </div>
                         <div>
-                            <label htmlFor="mobileno">Mobile No</label>
+                            <label className="FormField__Label" htmlFor="mobileno">Mobile No</label>
                             <input className="FormField__Input" type="number" id="mobileno" name="mobileno" onChange={this.handleChange} placeholder="Enter Mobile Number" />
                         </div>
                         <div>
-                            <label htmlFor="location">location</label>
+                            <label className="FormField__Label" htmlFor="location">Location</label>
                             <input className="FormField__Input" type="text" id="location" name="location" onChange={this.handleChange} placeholder="Please enter the location" />
                         </div>
 
                         <div className="FormField">
                             {/* Write code here to create Register Button */}
-                            <button type="submit">Submit</button>
+                            <Button className="FormField__Button" type="submit">Submit</Button>
                         </div>
                     </form>
                 </div>

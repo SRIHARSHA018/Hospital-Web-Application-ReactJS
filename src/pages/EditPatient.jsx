@@ -3,6 +3,7 @@ import "../App.css";
 import NavBar from "./NavBar.jsx";
 import { patientDetailsData } from "./data.js";
 import {Route} from "react-router-dom";
+import  Button  from "../components/Button";
 
 class EditPatient extends Component {
   constructor(props) {
@@ -88,36 +89,35 @@ class EditPatient extends Component {
             <form onSubmit={this.handleSubmit} className="FormFields">
               {/* Write code here to create labels and input fields for edit patient like name,email,dob,location and mobile*/}
                 <div>
-              <label>Name</label>
-              <input id="name" onChange={this.handleChange}></input>
+              <label  className="FormField__Label">Name</label>
+              <input  className="FormField__Input" id="name" name="name" value={this.state.name} onChange={this.handleChange}></input>
             </div>
 
             <div>
-              <label>E-mail ID</label>
-              <input id="email" onChange={this.handleChange}></input>
+              <label  className="FormField__Label" >E-mail ID</label>
+              <input  className="FormField__Input" id="email" name="email" value={this.state.email} onChange={this.handleChange}></input>
             </div>
 
             <div>
-              <label>Date of Birth</label>
-              <input id="dob" onChange={this.handleChange}></input>
+              <label  className="FormField__Label">Date of Birth</label>
+              <input  className="FormField__Input" id="dob" name="dob" value={this.state.dob} onChange={this.handleChange}></input>
             </div>
 
             <div>
-              <label>Location</label>
-              <input id="location" onChange={this.handleChange}></input>
+              <label  className="FormField__Label">Location</label>
+              <input  className="FormField__Input" id="location" name="location" value={this.state.location} onChange={this.handleChange}></input>
             </div>
 
             <div>
-              <label>Mobile No</label>
-              <input id="mobile" onChange={this.handleChange}></input>
+              <label  className="FormField__Label">Mobile No</label>
+              <input  className="FormField__Input" id="mobile" name="mobile" value={this.state.mobile} onChange={this.handleChange}></input>
             </div>
             <div className="SideRow">
               {/* Write code here to create submit and cancel buttons */}
               <div></div>
-              <button type="submit">submit</button>
-              <button onClick={this.handleCancel}>cancel</button>
-            </div>
-             
+              <Button  className="FormField__Button" type="submit">submit</Button>
+              <Button  className="FormField__Button" onClick={this.handleCancel}>cancel</Button>
+            </div>         
             </form>
         </div>
       </div>
