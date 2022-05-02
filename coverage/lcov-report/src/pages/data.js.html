@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/pages/data.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\index.html">All files</a> / <a href="index.html">src/pages</a> data.js
+    </h1>
+    <div class='clearfix'>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">function patientsDetails() {
+    this.patDetails = {};
+}
+&nbsp;
+function appointmentDetails() {
+    this.appDetails = {};
+}
+&nbsp;
+function administratorDetails() {
+    this.currentUserId = undefined;
+    this.adminDetails = {};
+}
+&nbsp;
+patientsDetails.prototype.add = function (name, email, dob, location, mobile) {
+    var id = Object.keys(this.patDetails).length + 1 || <span class="branch-1 cbranch-no" title="branch not covered" >1;</span>
+&nbsp;
+    const newUser = {
+        id,
+        name,
+        email,
+        dob,
+        location,
+        mobile
+    };
+    this.patDetails[id] = newUser
+&nbsp;
+    //const patDetails(id) = newUser;
+}
+&nbsp;
+&nbsp;
+patientsDetails.prototype.edit = <span class="fstat-no" title="function not covered" >fu</span>nction (id, name, email, dob, location, mobile) {
+    // const id=Object.keys(this.patDetails).length+1 || 1;
+<span class="cstat-no" title="statement not covered" >    this.patDetails[id] = {</span>
+        id,
+        name,
+        email,
+        dob,
+        location,
+        mobile
+    };
+}
+&nbsp;
+&nbsp;
+patientsDetails.prototype.getData = function () {
+&nbsp;
+    return Object.values(this.patDetails);
+};
+&nbsp;
+patientsDetails.prototype.getName = <span class="fstat-no" title="function not covered" >fu</span>nction () {
+    // return (this.patDetails.id &amp;&amp; this.patDetails.id.name) || '';
+<span class="cstat-no" title="statement not covered" >    return Object.values(this.patDetails).map(<span class="fstat-no" title="function not covered" >pa</span>tient =&gt; <span class="cstat-no" title="statement not covered" >patient.name)</span>;</span>
+};
+&nbsp;
+patientsDetails.prototype.getPatientDetails = function (id) {
+    return this.patDetails[id] || <span class="branch-1 cbranch-no" title="branch not covered" >undefined;</span>
+    // return this.patDetails.find(patient =&gt; patient.id === Number(id));
+};
+&nbsp;
+&nbsp;
+&nbsp;
+patientsDetails.prototype.viewPatientDetails = function (id) {
+    return this.patDetails[id] || <span class="branch-1 cbranch-no" title="branch not covered" >undefined;</span>
+    // return this.patDetails.find(patient =&gt; patient.id === Number(id));
+};
+&nbsp;
+patientsDetails.prototype.deletePatient = <span class="fstat-no" title="function not covered" >fu</span>nction (id) {
+<span class="cstat-no" title="statement not covered" >    delete this.patDetails[id];</span>
+}
+&nbsp;
+&nbsp;
+appointmentDetails.prototype.add = function (name, disease, appdate, slot, description) {
+    const appId = Object.keys(this.appDetails).length + 1 || <span class="branch-1 cbranch-no" title="branch not covered" >1;</span>
+    this.appDetails[appId] = {
+        appId,
+        name,
+        disease,
+        appdate,
+        slot,
+        description
+    };
+}
+&nbsp;
+appointmentDetails.prototype.edit = <span class="fstat-no" title="function not covered" >fu</span>nction (appId, name, disease, appdate, slot, description) {
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    this.appDetails[appId] = {</span>
+        appId,
+        name,
+        disease,
+        appdate,
+        slot,
+        description
+    };
+}
+&nbsp;
+appointmentDetails.prototype.getData = function () {
+&nbsp;
+    return Object.values(this.appDetails);
+};
+&nbsp;
+appointmentDetails.prototype.getName = <span class="fstat-no" title="function not covered" >fu</span>nction () {
+<span class="cstat-no" title="statement not covered" >    return this.appDetails.map(</span>
+<span class="fstat-no" title="function not covered" >        ap</span>pointmentPatientName =&gt; <span class="cstat-no" title="statement not covered" >appointmentPatientName.name</span>
+    );
+};
+&nbsp;
+appointmentDetails.prototype.getAppointmentDetails = function (appId) {
+    return this.appDetails[appId] || <span class="branch-1 cbranch-no" title="branch not covered" >undefined;</span>
+}
+&nbsp;
+appointmentDetails.prototype.viewAppointmentDetails = <span class="fstat-no" title="function not covered" >fu</span>nction (appId) {
+<span class="cstat-no" title="statement not covered" >    return this.appDetails[appId] || undefined;</span>
+}
+&nbsp;
+appointmentDetails.prototype.deleteAppointment = <span class="fstat-no" title="function not covered" >fu</span>nction (appId) {
+<span class="cstat-no" title="statement not covered" >    delete this.appDetails[appId];</span>
+}
+&nbsp;
+administratorDetails.prototype.add = function (name, email, password, dob, mobileno, location) {
+&nbsp;
+    var adminId = Object.keys(this.adminDetails).length + 1 || <span class="branch-1 cbranch-no" title="branch not covered" >1;</span>
+    this.adminDetails[adminId] = {
+        adminId,
+        name,
+        email,
+        password,
+        dob,
+        mobileno,
+        location
+    };
+}
+&nbsp;
+administratorDetails.prototype.getData = function () {
+&nbsp;
+    return Object.values(this.adminDetails) || <span class="branch-1 cbranch-no" title="branch not covered" >[]</span>
+}
+&nbsp;
+administratorDetails.prototype.getCurrentUser = function () {
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (this.currentUserId) {
+<span class="cstat-no" title="statement not covered" >        return this.adminDetails[this.currentUserId]</span>
+    }
+    return undefined;
+}
+&nbsp;
+administratorDetails.prototype.setCurrentUser = <span class="fstat-no" title="function not covered" >fu</span>nction (adminId) {
+<span class="cstat-no" title="statement not covered" >    this.currentUserId = adminId;</span>
+}
+&nbsp;
+export const patientDetailsData = new patientsDetails();
+&nbsp;
+export const appDetailsData = new appointmentDetails();
+&nbsp;
+export const adminDetailsData = new administratorDetails()
+&nbsp;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon May 02 2022 10:07:48 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\sorter.js"></script>
+</body>
+</html>

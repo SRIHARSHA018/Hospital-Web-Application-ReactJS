@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\AllPatients.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\AllPatients.test.js" hostname="localhost" tests="13" failures="0" time="24.264" timestamp="2022-05-02T04:37:20">
+    <properties>
+    </properties>
+    <testcase classname="testing EditAppointment" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render three inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a disease" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a appdate" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a slot" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a description" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the name state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the disease state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the appdate state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the slot state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the description state of adding patient" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\EditAppointment.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\EditAppointment.test.js" hostname="localhost" tests="13" failures="0" time="24.705" timestamp="2022-05-02T04:37:20">
+    <properties>
+    </properties>
+    <testcase classname="testing EditAppointment" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render three inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a disease" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a appdate" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a slot" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a description" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the name state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the disease state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the appdate state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the slot state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the description state of adding patient" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\BookAppointment.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\BookAppointment.test.js" hostname="localhost" tests="13" failures="0" time="24.41" timestamp="2022-05-02T04:37:20">
+    <properties>
+    </properties>
+    <testcase classname="testing EditAppointment" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render three inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a disease" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a appdate" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a slot" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a description" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the name state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the disease state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the appdate state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the slot state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the description state of adding patient" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\AddPatient.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\AddPatient.test.js" hostname="localhost" tests="14" failures="1" time="24.857" timestamp="2022-05-02T04:37:20">
+    <properties>
+    </properties>
+    <testcase classname="testing add patient" name="should render eight &lt;div/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m10[39m
+Received:
+  [31m9[39m
+    at Object.&lt;anonymous&gt; (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\AddPatient.test.js:18:44)
+    at Object.asyncFn (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing add patient" name="should set the state values" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should render five inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name email" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name dob" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name location" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name mobile" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should change the name state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should change the email state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should change the dob state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should change the location state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should change the mobileno state of adding patient" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\EditPatient.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\EditPatient.test.js" hostname="localhost" tests="13" failures="0" time="24.649" timestamp="2022-05-02T04:37:20">
+    <properties>
+    </properties>
+    <testcase classname="testing EditPatient" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should render three inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a email" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a dob" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a location" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a mobile" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the name state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the email state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the dob state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the location state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the mobile state of adding patient" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\NavBar.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\NavBar.test.js" hostname="localhost" tests="4" failures="4" time="0.894" timestamp="2022-05-02T04:37:44">
+    <properties>
+    </properties>
+    <testcase classname="testing NavBar component" name="checking the NavBar NavLink router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\enzyme\build\ShallowWrapper.js:1431:21)
+    at Object.&lt;anonymous&gt; (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\NavBar.test.js:20:23)
+    at Object.asyncFn (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing NavBar component" name="checking the NavBar allpatients router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\enzyme\build\ShallowWrapper.js:1431:21)
+    at Object.&lt;anonymous&gt; (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\NavBar.test.js:29:23)
+    at Object.asyncFn (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing NavBar component" name="checking the NavBar Book appointment router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\enzyme\build\ShallowWrapper.js:1431:21)
+    at Object.&lt;anonymous&gt; (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\NavBar.test.js:37:23)
+    at Object.asyncFn (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing NavBar component" name="checking the NavBar all appointments router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\enzyme\build\ShallowWrapper.js:1431:21)
+    at Object.&lt;anonymous&gt; (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\NavBar.test.js:48:23)
+    at Object.asyncFn (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\ViewAppointment.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\ViewAppointment.test.js" hostname="localhost" tests="7" failures="0" time="25.41" timestamp="2022-05-02T04:37:20">
+    <properties>
+    </properties>
+    <testcase classname="testing ViewAppointment" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a disease" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a appdate" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a slot" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a description" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\SignUpForm.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\SignUpForm.test.js" hostname="localhost" tests="16" failures="0" time="25.571" timestamp="2022-05-02T04:37:20">
+    <properties>
+    </properties>
+    <testcase classname="SignUpForm" name="should render eleven &lt;div /&gt;" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should render six &lt;label&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should render six &lt;input&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a uname input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a email input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a password input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a dob input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a mobileno input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a location input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the name state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the email state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the password state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the dob state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the mobileno state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the location state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="valid path" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="8" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\ViewPatient.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\ViewPatient.test.js" hostname="localhost" tests="7" failures="0" time="0.947" timestamp="2022-05-02T04:37:45">
+    <properties>
+    </properties>
+    <testcase classname="testing ViewPatient" name="should render seven &lt;div /&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="should render five labels &lt;span/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a email" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a dob" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a location" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a mobile" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="9" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\ViewProfile.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\ViewProfile.test.js" hostname="localhost" tests="7" failures="0" time="0.906" timestamp="2022-05-02T04:37:45">
+    <properties>
+    </properties>
+    <testcase classname="testing ViewProfile" name="should render nine &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewProfile" name="should render five span &lt;span/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a email" time="0">
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a dob" time="0">
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a location" time="0">
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a mobile" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="10" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\SignInForm.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\SignInForm.test.js" hostname="localhost" tests="7" failures="0" time="0.824" timestamp="2022-05-02T04:37:45">
+    <properties>
+    </properties>
+    <testcase classname="SignInForm" name="should render seven &lt;div /&gt;" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="should render four &lt;label&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="should render four &lt;input&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="renders a fname input" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="renders a lname input" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="11" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\AllAppointments.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\tests\AllAppointments.test.js" hostname="localhost" tests="1" failures="0" time="0.76" timestamp="2022-05-02T04:37:45">
+    <properties>
+    </properties>
+    <testcase classname="testing AllAppointments" name="should set the state values" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="12" name="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\App.test.js" errors="0" package="E:\workspace\vs_Code\MERN\Hospital\hospitalApplication\challenge\src\App.test.js" hostname="localhost" tests="1" failures="0" time="0.54" timestamp="2022-05-02T04:37:45">
+    <properties>
+    </properties>
+    <testcase classname="renders without crashing" name="renders without crashing" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
