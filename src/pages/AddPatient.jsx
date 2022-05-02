@@ -83,49 +83,59 @@ class AddPatient extends Component {
         <div className="FormCenter">
           <form onSubmit={this.handleSubmit} className="FormFields">
             <div>
-              <label>Name</label>
+              <label className="FormField__Label">Name</label>
               <input
+                className="FormField__Input"
                 id="name"
                 name="name"
                 onChange={this.handleChange.bind(this)}
-              ></input>
+                placeholder="Enter the Patient Name"
+              />
             </div>
 
             <div>
-              <label>E-mail ID</label>
+              <label className="FormField__Label">E-mail ID</label>
               <input
+                className="FormField__Input"
                 id="email"
                 name="email"
                 onChange={this.handleChange.bind(this)}
-              ></input>
+                placeholder="Enter the Email Id"
+              />
             </div>
 
             <div>
-              <label>Date of Birth</label>
+              <label className="FormField__Label">Date of Birth</label>
               <input
+                className="FormField__Input"
                 id="dob"
                 name="dob"
                 type="date"
                 onChange={this.handleChange.bind(this)}
-              ></input>
+                placeholder="Date Of Birth"
+              />
             </div>
 
             <div>
-              <label>Location</label>
+              <label className="FormField__Label">Location</label>
               <input
+                className="FormField__Input"
                 id="location"
                 name="location"
                 onChange={this.handleChange.bind(this)}
-              ></input>
+                placeholder="Location"
+              />
             </div>
 
             <div>
-              <label>Mobile No</label>
+              <label className="FormField__Label">Mobile No</label>
               <input
+                className="FormField__Input"
                 id="mobile"
                 name="mobile"
                 onChange={this.handleChange.bind(this)}
-              ></input>
+                placeholder="Enter the Mobile Number"
+            />
             </div>
             <div className="FormField">
               {/* Write code here to create Register Button */}
