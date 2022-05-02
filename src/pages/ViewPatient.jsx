@@ -8,7 +8,6 @@ class ViewPatient extends Component {
     this.state = {
       patient: patientDetailsData.viewPatientDetails(props.match.params.id),
     };
-
     this.handleClose = this.handleClose.bind(this);
   }
 
@@ -41,19 +40,19 @@ class ViewPatient extends Component {
           <form onSubmit={this.handleSubmit} className="FormFields">
             {/* Write code here to create fields for name, disease,appdate, slot and mobile*/}
             <div>
-              <span className="FormField__all__font" id="name">{patient.name}</span>
+              <span className="FormField__Label" id="name" >{patient.name}</span>
             </div>
             <div>
-              <span className="FormField__all__font" id="email">{patient.email}</span>
+              <span className="FormField__Label" id="email">{patient.email}</span>
             </div>
             <div>
-              <span id="dob">{patient.dob}</span>
+              <span id="dob" className="FormField__Label">{patient.dob}</span>
             </div>
             <div>
-              <span id="location">{patient.location}</span>
+              <span id="location" className="FormField__Label">{patient.location}</span>
             </div>
             <div>
-              <span id="mobile">{patient.mobile}</span>
+              <span id="mobile" className="FormField__Label">{patient.mobile}</span>
             </div>
             <div className="FormField">
               {/*Write code here to create close button */}

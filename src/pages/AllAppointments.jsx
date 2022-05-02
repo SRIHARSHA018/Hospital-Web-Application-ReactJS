@@ -64,9 +64,9 @@ class AllAppointments extends Component {
             
             <div className="FormCenter">
                   <div className="FormField__Label">{appointment.name}</div>
-                  <button className="FormField__all__Button" onClick={this.handleView}>View</button>
-                  <button className="FormField__all__Button" onClick={this.handleEdit}>Edit</button>
-                  <button className="FormField__all__Button" onClick={this.handleDelete}>Delete</button>
+                  <button className="FormField__all__Button" onClick={this.handleView.bind(this, appointment.appId)}>View</button>
+                  <button className="FormField__all__Button" onClick={this.handleEdit.bind(this, appointment.appId)}>Edit</button>
+                  <button className="FormField__all__Button" onClick={this.handleDelete.bind(this, appointment.appId)}>Delete</button>
                 </div>
               ))}
             </div>

@@ -42,19 +42,19 @@ class ViewAppointment extends Component {
         <form onSubmit={this.handleSubmit} className="FormFields">
             {/* Write code here to display name, appdate, slot, description and disease */}
              <div>
-              <span id="name">{appointment.name}</span>
+              <span id="name" className="FormField__Label">{appointment.name}</span>
             </div>
             <div>
-              <span id="disease">{appointment.disease}</span>
+              <span id="disease" className="FormField__Label">{appointment.disease}</span>
             </div>
             <div>
-              <span id="appdate">{appointment.appdate}</span>
+              <span id="appdate" className="FormField__Label">{appointment.appdate}</span>
             </div>
             <div>
-              <span id="slot">{appointment.slot}</span>
+              <span id="slot" className="FormField__Label">{appointment.slot}</span>
             </div>
             <div>
-              <span id="description">{appointment.description}</span>
+              <span id="description" className="FormField__Label">{appointment.description}</span>
             </div>
             <div className="FormField">
               {/*Write code here to create a close button */}
