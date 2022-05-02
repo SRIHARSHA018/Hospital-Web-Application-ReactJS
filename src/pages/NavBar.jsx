@@ -38,7 +38,7 @@ const Example = props => {
             </NavItem>
             <NavItem>
               <Link to="/bookAppointment">Book Appointment</Link>
-            </NavItem>
+            </NavItem>          
             <NavItem>
               <Link to="/allAppointments">All Appointments</Link>
             </NavItem>
