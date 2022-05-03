@@ -123,8 +123,8 @@ class BookAppointment extends Component {
               </label>
               <header className="FormField__Label">select slots </header>
               <select
-            
                 id="dropdown"
+                className="DropDowns"
                 ref={(input) => (this.slots = input)}
                 onChange={this.handleDropdownChange.bind(this)}
               >

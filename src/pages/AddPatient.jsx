@@ -135,7 +135,7 @@ class AddPatient extends Component {
                 name="mobile"
                 onChange={this.handleChange.bind(this)}
                 placeholder="Enter the Mobile Number"
-            />
+              />
             </div>
             <div className="FormField">
               {/* Write code here to create Register Button */}
@@ -143,6 +143,7 @@ class AddPatient extends Component {
                 className="FormField__Button"
                 onClick={this.handleSubmit}
                 type="submit"
+                disabled={!isEnabled}
               >
                 Add Patient
               </Button>
