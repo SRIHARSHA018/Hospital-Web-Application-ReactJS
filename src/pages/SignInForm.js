@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { adminDetailsData } from "./data.js";
 import "../App.css";
 import Button from "../components/Button";
+import validator from "validator";
 
 class SignInForm extends Component {
   constructor() {
@@ -12,6 +13,8 @@ class SignInForm extends Component {
       email: "",
       password: "",
       adminDetails: adminDetailsData.getData(),
+      isValidcredentials: false,
+      errorLog: [],
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -27,12 +30,25 @@ class SignInForm extends Component {
       [name]: value,
     });
   }
+  logSignInDetails(details) {
+    let errorLog = [];
+    if (!validator.isEmail(details.email))
+      errorLog.push("Please Enter a valid email address.");
+    if (!validator.isStrongPassword(details.password))
+      errorLog.push("Password is invalid(Not a strong password)");
+    if (!this.state.isValidcredentials)
+      errorLog.push("incorrect credentials.Please try again");
+    if (errorLog.length !== 0) {
+      this.setState({ errorLog: errorLog });
+    }
+  }
 
   handleSubmit(e) {
     e.preventDefault();
     e.stopPropagation();
 
     const { adminDetails } = this.state;
+    this.logSignInDetails(this.state);
 
     let validCredentials = false;
     if (this.canBeSubmitted()) {
@@ -43,25 +59,25 @@ class SignInForm extends Component {
         ) {
           let currentUser = admin.adminId;
           validCredentials = true;
-          adminDetailsData.setCurrentUser(admin.adminId);
+          this.setState({ isValidcredentials: true });
+          adminDetailsData.setCurrentUser(currentUser);
           this.props.history.push("/allpatients");
           return;
         }
       });
       if (!validCredentials) {
-        alert("please enter valid credentials");
+        this.setState({ isValidcredentials: false });
+
         this.props.history.push("/sign-in");
       }
     }
   }
   canBeSubmitted() {
-    const { email, password, adminDetails } = this.state;
-    return email.length > 0 && password.length > 0;
+    const { email, password } = this.state;
+    return validator.isEmail(email) && validator.isStrongPassword(password);
   }
 
   render() {
-    const isEnabled = this.canBeSubmitted();
-
     return (
       <div>
         <div>
@@ -79,7 +95,15 @@ class SignInForm extends Component {
               Register
             </NavLink>
           </div>
-
+          {!this.state.isValidcredentials
+            ? this.state.errorLog.map((error) => {
+                return (
+                  <div>
+                    <p>{`*${error}`}</p>
+                  </div>
+                );
+              })
+            : ""}
           <form onSubmit={this.handleSubmit} className="FormFields">
             {/*Write code here to create labels and fields for username and password */}
             <div>
